@@ -1,4 +1,4 @@
-.App {
+/* .App {
   text-align: center;
 }
 
@@ -35,4 +35,70 @@
   to {
     transform: rotate(360deg);
   }
+} */
+
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.headerHomePage{
+  padding: 20px 10px;
+  color: white;
+}
+
+.form_control{
+  width: 40%;
+  margin: 10px;
+
+}
+
+.form_control label{
+  display: block;
+}
+
+.form_control input{
+  width: 80%;
+  padding: 10px;
+}
+
+.form{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+form button {
+  padding: 10px;
+  background-color: #28A745;
+  border: 1px solid #28A745;
+  color: white;
+  margin: 10px 10px;
+}
+.StudentList{
+  margin-top: 20px;
+}
+.StudentList table{
+  width: 100%;
+
+}
+
+.student td{
+  text-align: center;
+  padding: 20px;
+}
+
+.SortStudent select{
+  padding: 10px;
+  float: right;
+  margin-right: 40px;
+  margin-bottom: 20px;
+}
+
+.student a{
+  color: red;
+  text-decoration: none;
+  
 }

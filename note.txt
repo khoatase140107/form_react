@@ -1,0 +1,15 @@
+1 folder có rất nhiều file nhưng chỉ có file index thì sẽ lấy file index đó.
+
+Nếu dữ liệu được xử lý bởi DOM, chúng ta gọi là `uncontrollerd components`
+
+
+Nếu dữ liệu được xử lý bởi components, chúng ta gọi chúng là `controlled componens`
+
+làm sao bắt được sự kiện submit form 
+input có sự kiện onChange() react xử lý sẽ truyền event 
+event là gì?
+_ chứa nhiều thứ target là dom tới input 
+name và value.
+
+Trong form co sự kiện onSubmit
+e.preventDefault() chặn mặc định của form
